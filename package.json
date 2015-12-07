@@ -1,0 +1,26 @@
+{
+  "name": "conference-api",
+  "version": "0.0.1",
+  "description": "Sample Conference Web Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "tedcrow",
+  "license": "MIT",
+  "engines": {
+		"node": "5.1.1",
+		"npm": "3.3.12"
+  },
+  "dependencies": {
+	"body-parser": "^1.14.1",
+    "express": "^4.13.3",
+	"method-override": "^2.3.5",
+	"mongoose": "^4.2.9",
+	"morgan": "^1.6.1",
+	"nodemon": "^1.8.1"
+  }
+}
