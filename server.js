@@ -12,8 +12,8 @@ var port     = process.env.PORT || 8080; // where the application will run
 var mongoose   = require('mongoose');
 
 // connect to our database
-// mongoose.connect('mongodb://127.0.0.1:port/node-api');
-// mongoose.connect('mongodb://feiochc:hate666!@kahana.mongohq.com:10073/node-api');
+   mongoose.connect('mongodb://127.0.0.1:port/node-api');
+//   mongoose.connect('mongodb://feiochc:hate666!@kahana.mongohq.com:10073/node-api');
 
 var Speaker     = require('./server/models/speaker');
 
